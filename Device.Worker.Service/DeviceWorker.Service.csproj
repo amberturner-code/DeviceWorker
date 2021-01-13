@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Device.Worker.Data\DeviceWorker.Domain.csproj" />
+    <ProjectReference Include="..\DeviceWorker.Logging\DeviceWorker.Logging.csproj" />
+    <ProjectReference Include="..\DeviceWorker.Messaging.Sender\DeviceWorker.Messaging.Sender.csproj" />
+  </ItemGroup>
+
+</Project>
